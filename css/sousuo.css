@@ -1,0 +1,283 @@
+
+/* * @Author: GuoLanyun
+* @Date:   2018-01-05 15:54:08
+* @Last Modified by:   GuoLanyun
+* @Last Modified time: 2018-01-06 20:15:03
+*/ 
+@import url("base.css");
+/* @font-face {
+  font-family: 'iconfont';  */ /* project id 532243 */
+  /* src: url('http://at.alicdn.com/t/font_532243_aqabcynhpw7mn29.eot');
+  src: url('http://at.alicdn.com/t/font_532243_aqabcynhpw7mn29.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_532243_aqabcynhpw7mn29.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_532243_aqabcynhpw7mn29.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_532243_aqabcynhpw7mn29.svg#iconfont') format('svg');
+} */
+@font-face {
+  font-family: 'iconfont';  /* project id 532243 */
+  src: url('http://at.alicdn.com/t/font_532243_olx1loz4rvygb9.eot');
+  src: url('http://at.alicdn.com/t/font_532243_olx1loz4rvygb9.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_532243_olx1loz4rvygb9.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_532243_olx1loz4rvygb9.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_532243_olx1loz4rvygb9.svg#iconfont') format('svg');
+}
+
+.iconfont{
+	font-family: 'iconfont';
+}
+i{
+	font-style: normal;
+}
+
+/* 头部开始 */
+.head{
+	width: 100%;
+	height: 0.99rem;
+	/* background: yellow; */
+	border-bottom: 0.01rem solid #d2d2d2;
+	overflow: hidden;
+}
+.xinpin{
+	width: 0.73rem;
+	height: 0.4rem;
+	/* background: red; */
+	margin: 0 auto;
+    margin-top: 0.3rem;
+    font-size: 0.35rem;
+    color: #333333;
+    text-align: center;
+}
+.fenxiang{
+	width: 0.4rem;
+	height: 0.5rem;
+	/* background: yellow; */
+	float: right;
+	display: block;
+	margin-top: -0.4rem;
+    margin-right: 0.3rem;
+}
+.icon3{
+	width: 0.4rem;
+	height: 0.5rem;
+	color: #666666;  
+}
+/* 头部结束 */
+/* 搜索开始 */
+.sousuo{
+	width: 100%;
+	height: 0.88rem;
+	background: #f2f2f2;
+	border-top: 0.01rem solid #d2d2d2;
+	border-bottom: 0.01rem solid #d2d2d2;
+}
+/* .banw{
+	margin-top: 0.88rem;
+} */
+.sousuo_zhong{
+	width: 6.8rem;
+	height: 0.64rem;
+	background: white;
+	margin: 0.12rem auto;
+	border-radius: 0.05rem;
+}
+.sousuo_xiao{
+	width: 1.68rem;
+	height: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.sousuo_left{
+	width: 0.28rem;
+	height: 0.28rem;
+	display: block;
+	margin-top: 0.18rem;
+	float: left;
+}
+.sousuo_left img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.sousuo_right{
+	width: 1.4rem;
+	height: 100%;
+	margin-left: 0.28rem;
+	font-size: 0.25rem;
+	color: #9c9c9c;
+	line-height: 0.64rem;
+	text-align: center;
+}
+/* 搜索结束 */
+/* 分类开始 */
+.fenlei{
+	width: 100%;
+	height: 8rem;
+	/* background: yellowgreen; */
+	float: left;
+}
+.fenlei_left{
+	width: 1.92rem;
+	height: 5.3rem;
+	background: green;
+}
+.fenlei_left_list{
+	display: block;
+	width: 1.92rem;
+	height: 1.06rem;
+	background: white;
+	font-size: 0.3rem;
+	color: #e02e24;
+	text-align: center;
+	line-height: 1.06rem;
+}
+.fenlei_left_list1{
+	display: block;
+	width: 1.92rem;
+	height: 1.06rem;
+	background: #fafafa;
+	font-size: 0.3rem;
+	color: #666666;
+	text-align: center;
+	line-height: 1.06rem;
+}
+.fenlei_right{
+	width: 5.28rem;
+	height: 8rem;
+	/* background: yellow; */
+	float: right;
+	margin-top: -5.3rem;
+}
+.fenlei_right_list{
+	width: 5.28rem;
+	height: 1.06rem;
+	/* background: green; */
+}
+.fenlei_danjian{
+	width: 1.2rem;
+	height: 1.06rem;
+	float: left;
+	font-size: 0.3rem;
+	color: #333333;
+	text-align: center;
+	line-height: 1.06rem;
+}
+.fenlei_chakan{
+	display: block;
+	width: 1.3rem;
+	height: 1.06rem;
+	font-size: 0.2rem;
+	color:#aaaaaa;
+	text-align: center;
+	line-height: 1.06rem;
+	float: right;
+	margin-right: 0.2rem;
+}
+.fenlei_right_list1{
+	width: 5.28rem;
+	height: 1.5rem;
+	background: white;
+	margin-bottom: 0.34rem;
+}
+.fenlei_right_list1z{
+	display: block;
+	width: 1.68rem;
+	height: 1.5rem;
+	float: left;
+}
+.fenlei_bao{
+	display: block;
+	width: 1.68rem;
+	height: 1.17rem;
+	background:white;
+}
+.fenlei_bao img{
+	width: 1.03rem;
+	height: 1.11rem;
+	display: block;
+	margin: 0 auto;
+}
+
+.fenlei_shuzi{
+	display: block;
+	width: 100%;
+	height: 0.33rem;
+	font-size: 0.1rem;
+	color: #666666;
+	text-align: center;
+	line-height: 0.33rem;
+}
+
+.fenlei_right_list3{
+	width: 5.28rem;
+	height: 1.5rem;
+	background: white;
+	margin-bottom: 1.54rem;
+}
+/* 分类结束 
+/* 底部开始 */
+ .dibu{
+	width: 100%;
+	height: 1rem;
+	background: white;
+	margin-top: 1.2rem;
+	border-top: 0.02rem solid #e0e0e0;
+	position: fixed;
+	bottom: 0;
+    z-index: 999;
+}
+.dibu_juzhong{
+	width: 6.28rem;
+	height: 100%;
+	/* background: red; */
+	margin: 0 auto;
+}
+.dibu_hezi1{
+	width: 1.57rem;
+	height: 100%;
+	/* background: yellow; */
+	float: left;
+}
+.hezixia{
+	display: block;
+	width: 100%;
+	height: 0.4rem;
+	font-size: 0.1rem;
+	color: #e23a30;
+	text-align: center;
+	line-height: 0.4rem;
+}
+
+.dibu_hezi2{
+	width: 1.57rem;
+	height: 100%;
+	/* background: yellow; */
+	float: left;
+}
+.hezixia2{
+	display: block;
+	width: 100%;
+	height: 0.4rem;
+	font-size: 0.1rem;
+	color: #7b7b7b;
+	text-align: center;
+	line-height: 0.4rem;
+}
+.icon1{
+	width: 0.7rem;
+	height: 0.7rem;
+	color: #e02e24;
+	margin-left:0.58rem; 
+	/* display: block; */
+	/* margin: 0 auto; */
+	text-align: center;
+}
+.icon2{
+	width: 0.7rem;
+	height: 0.7rem;
+	color: #8c8c8c;
+	margin-left:0.58rem; 
+	/* display: block; */
+	/* margin: 0 auto; */
+	text-align: center;
+}
+/* 底部结束 */

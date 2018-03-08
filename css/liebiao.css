@@ -1,0 +1,172 @@
+/*
+* @Author: GuoLanyun
+* @Date:   2018-01-06 20:28:02
+* @Last Modified by:   GuoLanyun
+* @Last Modified time: 2018-01-07 10:51:16
+*/
+@import url("base.css");
+
+@font-face {
+  font-family: 'iconfont';  /* project id 533220 */
+  src: url('http://at.alicdn.com/t/font_533220_wyfm7s9hrp69lik9.eot');
+  src: url('http://at.alicdn.com/t/font_533220_wyfm7s9hrp69lik9.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_533220_wyfm7s9hrp69lik9.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_533220_wyfm7s9hrp69lik9.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_533220_wyfm7s9hrp69lik9.svg#iconfont') format('svg');
+}
+
+.iconfont{
+	font-family: 'iconfont';
+}
+i{
+	font-style: normal;
+}
+
+/* body{
+  height: 30rem;
+} */
+/* 头部开始 */
+.head{
+	width: 100%;
+	height: 0.99rem;
+	background: white;
+	border-bottom: 0.01rem solid #d2d2d2;
+	overflow: hidden;
+	position: fixed;
+    left: 0;
+    top: 0;
+	z-index: 999;
+}
+.fanhui{
+	width: 0.5rem;
+	height: 0.54rem;
+	/* background:red; */
+	float: left;
+	display: block;
+	margin-top: 0.3rem;
+	margin-left: 0.3rem;
+}
+.xinpin{
+	width: 0.73rem;
+	height: 0.4rem;
+	/* background: red; */
+	margin: 0 auto;
+    margin-top: 0.3rem;
+    font-size: 0.35rem;
+    color: #333333;
+    text-align: center;
+}
+.fenxiang{
+	width: 0.4rem;
+	height: 0.5rem;
+	/* background: yellow; */
+	float: right;
+	display: block;
+	margin-top: -0.4rem;
+    margin-right: 0.3rem;
+}
+.icon4{
+	width: 0.5rem;
+	height: 0.54rem;
+	color: #696969;
+}
+.icon3{
+	width: 0.4rem;
+	height: 0.5rem;
+	color: #666666;  
+}
+/* 头部结束 */
+/* 顶部开始 */
+.dingbu{
+	width: 100%;
+	height: 0.8rem;
+	background: white;
+	border-bottom: 0.01rem solid #d2d2d2;
+    
+	margin-top: 0.99rem;
+	/* background: yellowgreen; */
+}
+.dingbu_juzh{
+	width: 6.69rem;
+	height: 100%;
+	/* background: red; */
+	margin-left: 0.5rem;
+}
+.dingbu_list{
+	display: block;
+	width: 1.11rem;
+	height: 100%;
+	/* background: yellow; */
+	float: left;
+	font-size: 0.25rem;
+	color: #4a4a4a;
+	line-height: 0.8rem;
+}
+.dingbu_juzh .dingbu_list:first-child{
+	color: #e02e24;
+}
+/* 顶部结束 */
+/* 列表开始 */
+.liebiao{
+	width: 100%;
+	height: 5.28rem;
+	background: #f8f8f8;
+	margin-bottom: 0.3rem;
+}
+.liebiao_left{
+	width: 3.57rem;
+	height: 5.28rem;
+	/* background: green; */
+	float: left;
+	margin-right: 0.06rem;
+}
+.liebiao .liebiao_left:last-child{
+	margin-right: 0;
+}
+.liebiao_tu{
+	width: 3.57rem;
+	height: 3.58rem;
+	display: block;
+	/* background: yellow; */
+}
+.liebiao_tu img{
+	width: 3.57rem;
+	height: 3.58rem;
+	display: block;
+}
+.liebiao_wenzi{
+	width: 3.23rem;
+	height: 0.7rem;
+	/* background: red; */
+	margin: 0.15rem auto;
+	font-size: 0.22rem;
+	color: #151516;
+	/* line-height: 0.7rem; */
+}
+.liebiao_jiaqian{
+	width: 100%;
+	height: 0.7rem;
+	/* background: yellow; */
+}
+.jiaqian_zuo{
+	width: 0.78rem;
+	height: 0.7rem;
+	/* background: red; */
+	float:left;
+	font-size: 0.25rem;
+	color: #e02e24;
+	text-align: center;
+	line-height: 0.7rem;
+	margin-left: 0.2rem;
+}
+.jiaqian_you{
+	width: 1.6rem;
+	height: 0.7rem;
+	/* background: green; */
+	float:right;
+	font-size: 0.25rem;
+	color: #9c9c9c;
+	line-height: 0.7rem;
+	text-align: center;
+}
+/* 列表结束 */
